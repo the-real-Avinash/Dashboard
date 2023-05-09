@@ -1,0 +1,36 @@
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  padding: 10px;
+}
+
+.btn-1 {
+  margin: 10px;
+}
+
+.btn-color {
+  background: linear-gradient(
+    98.41deg,
+    rgba(122, 0, 243, 0.99) 0.83%,
+    #df4ef7 100%
+  );
+  border: none;
+}
+
+.cards {
+  margin: 15px 39px;
+  width: 400px;
+  height: 224px;
+}
+
+.main-content {
+  display: flex;
+}
