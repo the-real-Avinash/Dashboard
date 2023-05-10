@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  margin: 10px 10px;
+  /* border: 1px solid red; */
+}
+.left {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+}
+.right {
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inner-left h4 {
+  margin-top: 20px;
+}
+
+.button {
+  background: linear-gradient(
+    98.41deg,
+    rgba(122, 0, 243, 0.99) 0.83%,
+    #df4ef7 100%
+  );
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calender-container {
+  display: flex;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.calender {
+  display: flex;
+
+  padding: 10px;
+  width: 50%;
+  margin: 10px;
+}
+
+.card-container {
+  display: flex;
+  padding: 10px;
+  width: 50%;
+  margin: 10px;
+}
+
+.inner-card {
+  width: 250px;
+  margin: 10px;
+}
+.upper {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.star-image {
+  background: linear-gradient(
+    98.41deg,
+    rgba(122, 0, 243, 0.99) 0.83%,
+    #df4ef7 100%
+  );
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.image-div {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+}
+.image-div img {
+  width: 40px;
+  height: 40px;
+}
+.image-div p {
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+}

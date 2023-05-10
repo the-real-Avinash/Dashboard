@@ -4,11 +4,10 @@
   justify-content: start;
 }
 
-.right {
+.rights {
   display: flex;
   align-items: center;
   justify-content: start;
-
   padding: 10px;
 }
 
@@ -26,11 +25,13 @@
 }
 
 .cards {
-  margin: 15px 39px;
-  width: 400px;
-  height: 224px;
+  margin: 10px 10px 10px 24px;
+  width: 600px;
+  height: 310px;
 }
 
 .main-content {
   display: flex;
+  justify-content: space-between;
+  margin: 10px 50px 10px 10px;
 }
